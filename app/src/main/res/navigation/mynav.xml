@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    app:startDestination="@id/tiempo">
+    <fragment
+        android:id="@+id/tiempo"
+        android:name="com.example.tiempo.ui.Tiempo"
+        android:label="Tu tiempo"
+        tools:layout="@layout/fragment_tiempo" />
+</navigation>
